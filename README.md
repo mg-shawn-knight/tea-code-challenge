@@ -31,7 +31,7 @@
 
 ##### Part 1: 
 
-`At the end of the README file, document the test cases you think are necessary to validate the given end points.<br>
+`At the end of the README file, document the test cases you think are necessary to validate the given end points.`<br>
 `In addition, don't hesitate to add any notes, observations, concerns or suggestions`
 
 ##### Part 2: 
