@@ -1,15 +1,16 @@
 ### Coding Assignment
 
-#### Project Requirements
-* Gradle Version 7+
+#### Project Technology Requirements
 * Upon completion, check-in the code into a public git repo and provide the link.
-
-#### Assignment Technology Requirements
-* Java
-* Gradle
+* Java 15+
+* Gradle &+
 * TestNG or JUnit 5
 * Unirest
 * Any libraries or frameworks you consider necessary
+
+#### Limitations
+
+
 
 #### Expectations
 * We are interested in the naming conventions, readability, structure and modularity of your implementation. 
