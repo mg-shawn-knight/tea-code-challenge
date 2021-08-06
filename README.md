@@ -3,7 +3,7 @@
 #### Project Technology Requirements
 * Upon completion, check-in the code into a public git repo and provide the link.
 * Java 15+
-* Gradle &+
+* Gradle 7+
 * TestNG or JUnit 5
 * Unirest
 * Any libraries or frameworks you consider necessary
