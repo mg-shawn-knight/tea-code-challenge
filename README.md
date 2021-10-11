@@ -52,7 +52,6 @@ Body: <br>
 "link": STRING
 }]}`
 <br>
-
 ---
 * GET - Get Users<br>
 `{url}/api/users`<br>
