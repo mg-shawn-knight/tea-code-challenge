@@ -115,7 +115,9 @@ Response: Status: 201 Created <br>
 Body: `{
 "id": NUMBER
 }`
+
 ---
+
 * DELETE - Delete User <br>
 `{url}/api/user/delete` <br>
 Example: `{url}/api/user/delete/1` <br>
