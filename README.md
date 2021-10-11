@@ -50,10 +50,7 @@ Body:
 "name": STRING
 "link": STRING
 }]}`
-<br>
-
 ---
-
 * GET - Get Users<br>
 `{url}/api/users`<br>
 Headers: `Content-Type -> application/json` <br>
@@ -91,8 +88,10 @@ Example: `{
 "name": STRING
 "link": STRING
 }]}`
+
 ---
-* POST - Add User <br>
+
+*POST - Add User <br>
 `{url}/api/user/add` <br>
 Headers: `Accept-Encoding -> application/json | Content-Type -> application/json` <br>
 Request Body: <br>
