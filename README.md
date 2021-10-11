@@ -31,10 +31,9 @@
 `{url}/api/user/`<br>
 Example: `{url}/api/user/1` <br>
 Headers: `Content-Type -> application/json` <br>
-Request Body: none
-<br>
-Response: Status: 200 OK<br>
-Body: <br>
+Request Body: none <br>
+Response: Status: 200 OK <br>
+Body:
 `{
 "id": NUMBER,
 "name": STRING,
@@ -52,7 +51,9 @@ Body: <br>
 "link": STRING
 }]}`
 <br>
+
 ---
+
 * GET - Get Users<br>
 `{url}/api/users`<br>
 Headers: `Content-Type -> application/json` <br>
