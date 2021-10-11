@@ -22,7 +22,7 @@
 * A backend database handling all transactions, however, in this exercise direct access to the database is not an option; in addition it also assumed the database is functioning correctly<br>
 
 
-#ADD HEADERS INFO 
+
 
 
 
@@ -37,7 +37,7 @@ Example: `{url}/api/user/1` <br>
 Headers: `Content-Type -> application/json` <br>
 Request Body: none
 <br>
-Response: Status: 200 OK<br>
+Response: Status: <b>200 OK</b><br>
 Body: <br>
 `{
 "id": NUMBER,
@@ -63,9 +63,9 @@ Body: <br>
 Headers: `Content-Type -> application/json` <br>
 Request Body: none
 <br>
-Response: Status: 200 OK<br>
+Response: Status: <b>200 OK</b><br>
 Body: Array of Users <br>
-Example: ``{
+Example: `{
 "id": NUMBER,
 "name": STRING,
 "profession": STRING,
@@ -95,7 +95,7 @@ Example: ``{
 "socialProfiles": [{
 "name": STRING
 "link": STRING
-}]}``
+}]}`
 ---
 * POST - Add User <br>
 `{url}/api/user/add` <br>
@@ -117,7 +117,7 @@ Request Body: <br>
 "link": STRING
 }]}`
 <br>
-Response: Status: 201 Created <br>
+Response: Status: <b>201 Created</b> <br>
 Body: `{
 "id": NUMBER
 }`
@@ -127,7 +127,7 @@ Body: `{
 Example: `{url}/api/user/delete/1` <br>
 Request Body: none
 <br>
-Response: Status: 202 Accepted (empty body)
+Response: Status: <b>202 Accepted</b> (empty body)
 <br><br>
 ### Exercises
 
