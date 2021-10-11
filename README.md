@@ -111,7 +111,7 @@ Request Body: <br>
 "link": STRING
 }]}`
 <br>
-Response: Status: 201 Created <br>
+Response: Status: 201 Created
 Body: `{
 "id": NUMBER
 }`
