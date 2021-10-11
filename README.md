@@ -1,6 +1,6 @@
 ### Coding Assignment
 
-#### Project Technology Requirements
+### Project Technology Requirements
 * Upon completion, check-in the code into a public git repo and provide the link.
 * Java 15+
 * Gradle 7+
@@ -8,27 +8,129 @@
 * Unirest
 * Any libraries or frameworks you consider necessary
 
-#### Limitations
+### Limitations
 
 
 
-#### Expectations
+### Expectations
 * We are interested in the naming conventions, readability, structure and modularity of your implementation. 
 * Variety and quality of the test cases.
 * Imagine that this small example is going to turn into a larger framework.
 
-#### Assumptions
+### Assumptions
+
+* A backend database handling all transactions, however, in this exercise direct access to the database is not an option; in addition it also assumed the database is functioning correctly<br>
+
+
+#ADD HEADERS INFO 
 
 
 
+* API Server: `https://0f5900a2-f989-449d-94e8-9c63893d0c86.mock.pstmn.io`
+
+### End Points
 
 
-#### Exercises
-##### <u>Exercise #1</u> <br>
+* GET - User<br>
+`{url}/api/user/`<br>
+Example: `{url}/api/user/1` <br>
+Headers: `Content-Type -> application/json` <br>
+Request Body: none
+<br>
+Response: Status: 200 OK<br>
+Body: <br>
+`{
+"id": NUMBER,
+"name": STRING,
+"profession": STRING,
+"age": NUMBER,
+"phone": STRING,
+"address": {
+"city": STRING,
+"postalCode": NUMBER,
+"Country": STRING
+},
+"languages": [STRING],
+"socialProfiles": [{
+"name": STRING
+"link": STRING
+}]}`
+<br>
 
-##### <u>Exercise #2</u> <br>
+---
+* GET - Get Users<br>
+`{url}/api/users`<br>
+Headers: `Content-Type -> application/json` <br>
+Request Body: none
+<br>
+Response: Status: 200 OK<br>
+Body: Array of Users <br>
+Example: ``{
+"id": NUMBER,
+"name": STRING,
+"profession": STRING,
+"age": NUMBER,
+"phone": STRING,
+"address": {
+"city": STRING,
+"postalCode": NUMBER,
+"Country": STRING
+},
+"languages": [STRING],
+"socialProfiles": [{
+"name": STRING
+"link": STRING
+}]},{
+"id": NUMBER,
+"name": STRING,
+"profession": STRING,
+"age": NUMBER,
+"phone": STRING,
+"address": {
+"city": STRING,
+"postalCode": NUMBER,
+"Country": STRING
+},
+"languages": [STRING],
+"socialProfiles": [{
+"name": STRING
+"link": STRING
+}]}``
+---
+* POST - Add User <br>
+`{url}/api/user/add` <br>
+Headers: `Accept-Encoding -> application/json | Content-Type -> application/json` <br>
+Request Body: <br>
+`{
+"name": STRING,
+"profession": STRING,
+"age": NUMBER,
+"phone": STRING,
+"address": {
+"city": STRING,
+"postalCode": NUMBER,
+"Country": STRING
+},
+"languages": [STRING],
+"socialProfiles": [{
+"name": STRING
+"link": STRING
+}]}`
+<br>
+Response: Status: 201 Created <br>
+Body: `{
+"id": NUMBER
+}`
+---
+* DELETE - Delete User <br>
+`{url}/api/user/delete` <br>
+Example: `{url}/api/user/delete/1` <br>
+Request Body: none
+<br>
+Response: Status: 202 Accepted (empty body)
+<br><br>
+### Exercises
 
-##### <u>Exercise #3</u>
 
 ##### Part 1: 
 
