@@ -57,9 +57,8 @@ Body:
 * GET - Get Users<br>
 `{url}/api/users`<br>
 Headers: `Content-Type -> application/json` <br>
-Request Body: none
-<br>
-Response: Status: <b>200 OK</b><br>
+Request Body: none <br>
+Response: Status: 200 OK<br>
 Body: Array of Users <br>
 Example: `{
 "id": NUMBER,
@@ -113,7 +112,7 @@ Request Body: <br>
 "link": STRING
 }]}`
 <br>
-Response: Status: <b>201 Created</b> <br>
+Response: Status: 201 Created <br>
 Body: `{
 "id": NUMBER
 }`
@@ -121,9 +120,8 @@ Body: `{
 * DELETE - Delete User <br>
 `{url}/api/user/delete` <br>
 Example: `{url}/api/user/delete/1` <br>
-Request Body: none
-<br>
-Response: Status: <b>202 Accepted</b> (empty body)
+Request Body: none <br>
+Response: Status: 202 Accepted (empty body)
 <br><br>
 ### Exercises
 
