@@ -121,7 +121,7 @@ Body: `{
 `{url}/api/user/delete` <br>
 Example: `{url}/api/user/delete/1` <br>
 Request Body: none <br>
-Response: Status: 202 Accepted (empty body)
+Response: Status: <b>202 Accepted</b> (empty body)
 <br><br>
 ### Exercises
 
