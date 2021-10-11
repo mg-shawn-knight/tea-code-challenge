@@ -16,6 +16,12 @@
 * We are interested in the naming conventions, readability, structure and modularity of your implementation. 
 * Variety and quality of the test cases.
 * Imagine that this small example is going to turn into a larger framework.
+* Please provide a link to download your code from any one of the following sources:
+Github,
+Google Drive,
+Dropbox,
+or OneDrive. 
+We will compile it locally and run it.
 
 ### Assumptions
 
