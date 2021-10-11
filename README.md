@@ -110,7 +110,7 @@ Request Body: <br>
 "name": STRING
 "link": STRING
 }]}`
-Response: Status: 201 Created
+Response: Status: 201 Created <br>
 Body: `{
 "id": NUMBER
 }`
