@@ -8,10 +8,6 @@
 * Unirest
 * Any libraries or frameworks you consider necessary
 
-### Limitations
-
-
-
 ### Expectations
 * We are interested in the naming conventions, readability, structure and modularity of your implementation. 
 * Variety and quality of the test cases.
