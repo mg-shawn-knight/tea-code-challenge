@@ -1,0 +1,43 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+ext {
+    testngVersion           = '7.4.0'
+    junitVersion            = '5.8.1'
+    restAssuredVersion      = '4.3.3'
+    schemaValidatorVersion  = '4.4.0'
+    configVersion           = '1.4.1'
+    fakerVersion            = '1.0.2'
+    unirestVersion          = '3.13.0'
+}
+
+dependencies {
+    // Test framework: TestNG or Junit5 [Requirement]
+    // testImplementation group: 'org.testng', name: 'testng', version: "${testngVersion}"
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: "${junitVersion}"
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: "${junitVersion}"
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: "${junitVersion}"
+
+    // Unirest [Requirement]
+    implementation group: 'com.konghq', name: 'unirest-java', version: "${unirestVersion}"
+
+    //Additional libraries [Optional]
+    //testImplementation group: 'io.rest-assured', name: 'json-schema-validator', version: "${schemaValidatorVersion}"
+    //implementation group: 'com.typesafe', name: 'config', version: "${configVersion}"
+    //implementation group: 'com.github.javafaker', name: 'javafaker', version: "${fakerVersion}"
+    //implementation 'org.jodd:jodd-lagarto:6.0.5'
+}
+
+test {
+    useJUnitPlatform()
+    //useTestNG()
+
+    testLogging {
+        events "passed", "skipped", "failed"
+        showStandardStreams = true
+    }
+}
+
+repositories {
+    mavenCentral()
+}
