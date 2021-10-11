@@ -33,7 +33,7 @@ Example: `{url}/api/user/1` <br>
 Headers: `Content-Type -> application/json` <br>
 Request Body: none
 <br>
-Response: Status: <b>200 OK</b><br>
+Response: Status: 200 OK<br>
 Body: <br>
 `{
 "id": NUMBER,
