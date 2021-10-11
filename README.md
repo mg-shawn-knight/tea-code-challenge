@@ -32,7 +32,7 @@
 Example: `{url}/api/user/1` <br>
 Headers: `Content-Type -> application/json` <br>
 Request Body: none <br>
-Response: Status: 200 OK <br>
+Response: Status: <b>200 OK</b> <br>
 Body:
 `{
 "id": NUMBER,
@@ -55,7 +55,7 @@ Body:
 `{url}/api/users`<br>
 Headers: `Content-Type -> application/json` <br>
 Request Body: none <br>
-Response: Status: 200 OK<br>
+Response: Status: <b>200 OK</b><br>
 Body: Array of Users <br>
 Example: `{
 "id": NUMBER,
