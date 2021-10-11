@@ -22,10 +22,6 @@
 * A backend database handling all transactions, however, in this exercise direct access to the database is not an option; in addition it also assumed the database is functioning correctly<br>
 
 
-
-
-
-
 * API Server: `https://0f5900a2-f989-449d-94e8-9c63893d0c86.mock.pstmn.io`
 
 ### End Points
