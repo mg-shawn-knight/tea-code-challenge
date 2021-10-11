@@ -91,7 +91,7 @@ Example: `{
 
 ---
 
-*POST - Add User <br>
+* POST - Add User <br>
 `{url}/api/user/add` <br>
 Headers: `Accept-Encoding -> application/json | Content-Type -> application/json` <br>
 Request Body: <br>
