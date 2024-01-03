@@ -1,9 +1,10 @@
-### Coding Assignment
+### Coding Challenge
 
 ### Project Technology Requirements
 #### Download and install
 * IntelliJ Community version (free)
 * Java 
+* Postman (optional)
 
 ### Project Setup
 * Clone repo locally
